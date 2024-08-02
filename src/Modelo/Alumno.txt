@@ -1,0 +1,73 @@
+package Modelo;
+
+/**
+ *
+ * @author demon
+ */
+public class Alumno {
+    // Atributos
+    private int idalumno, edad;
+    private String nombre, apellidoPaterno, apellidoMaterno, correo;
+
+    // Constructor vacío
+    public Alumno() {}
+
+    // Constructor con parámetros
+    public Alumno(int idalumno, int edad, String nombre, String apellidoPaterno, String apellidoMaterno, String correo) {
+        this.idalumno = idalumno;
+        this.edad = edad;
+        this.nombre = nombre;
+        this.apellidoPaterno = apellidoPaterno;
+        this.apellidoMaterno = apellidoMaterno;
+        this.correo = correo;
+    }
+
+    // Métodos getters y setters
+    public int getIdalumno() {
+        return idalumno;
+    }
+
+    public void setIdalumno(int idalumno) {
+        this.idalumno = idalumno;
+    }
+
+    public int getEdad() {
+        return edad;
+    }
+
+    public void setEdad(int edad) {
+        this.edad = edad;
+    }
+
+    public String getNombre() {
+        return nombre;
+    }
+
+    public void setNombre(String nombre) {
+        this.nombre = nombre;
+    }
+
+    public String getApellidoPaterno() {
+        return apellidoPaterno;
+    }
+
+    public void setApellidoPaterno(String apellidoPaterno) {
+        this.apellidoPaterno = apellidoPaterno;
+    }
+
+    public String getApellidoMaterno() {
+        return apellidoMaterno;
+    }
+
+    public void setApellidoMaterno(String apellidoMaterno) {
+        this.apellidoMaterno = apellidoMaterno;
+    }
+
+    public String getCorreo() {
+        return correo;
+    }
+
+    public void setCorreo(String correo) {
+        this.correo = correo;
+    }
+}

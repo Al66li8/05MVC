@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Guardar Datos del Alumno</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <div>
+        <p>Registrar Alumno</p>
+
+        <form action="guardarAlumno.jsp" method="post">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required><br><br>
+
+            <label for="appat">Apellido Paterno:</label>
+            <input type="text" id="appat" name="appat" required><br><br>
+
+            <label for="apmat">Apellido Materno:</label>
+            <input type="text" id="apmat" name="apmat" required><br><br>
+
+            <label for="edad">Edad:</label>
+            <input type="number" id="edad" name="edad" required><br><br>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required><br><br>
+
+            <input type="submit" value="Guardar">
+        </form>
+
+        <a href="inicio.jsp">Consultar Lista de Alumnos</a>
+    </div>
+</body>
+</html>
